@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="badmexican333.volumizer17">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/volumizerlogo2"
+        android:label=""
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".helpMenu"
+            android:label="@string/help" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/settings" />
+        <activity
+            android:name=".newUser"
+            android:label="@string/new_user" />
+        <activity
+            android:name=".newDevice"
+            android:label="@string/new_device" />
+        <activity
+            android:name=".switchUser"
+            android:label="@string/switch_user" />
+        <activity
+            android:name=".switchDevice"
+            android:label="@string/switch_device" />
+        <activity android:name=".BackupRestore" />
+        <activity android:name=".SetChangeDeletePassword" />
+        <activity android:name=".AdvancedSettings" />
+        <activity android:name=".PasswordRequest" />
+        <activity android:name=".ChangeUsername" />
+        <activity android:name=".ChangeDeviceName" />
+
+        <service
+            android:name=".VolumeTweakerRunner"
+            android:exported="false" />
+
+        <activity android:name=".MusicLocationSetter" />
+        <activity android:name=".About_Screen" />
+        <activity android:name=".LegalInformation" />
+        <activity android:name=".ChangesRequiredChanger"></activity>
+    </application>
+
+</manifest>

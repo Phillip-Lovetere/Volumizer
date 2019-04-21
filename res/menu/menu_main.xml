@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="badmexican333.volumizer17.MainActivity">
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="1"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/legal"
+        android:orderInCategory="2"
+        android:title="@string/legal"
+        app:showAsAction="never"/>
+
+    <!--
+
+    <item android:id="@+id/new_user"
+        android:title="@string/new_user"
+        android:orderInCategory="1"
+        android:icon="@drawable/newuserlogo"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/new_device"
+        android:title="@string/new_device"
+        android:orderInCategory="2"
+        android:icon="@drawable/newdevicelogo"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/switch_user"
+        android:title="@string/switch_user"
+        android:orderInCategory="3"
+        android:icon="@drawable/switchuserlogo"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/switch_device"
+        android:title="@string/switch_device"
+        android:orderInCategory="4"
+        android:icon="@drawable/switchdevicelogo"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/names_display"
+        android:title="@string/userDeviceButtonLabel"
+        android:orderInCategory="10"
+        app:showAsAction="never"
+        />
+
+        -->
+
+
+</menu>

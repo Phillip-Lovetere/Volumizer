@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Volumizer</string>
+    <string name="about">About</string>
+    <string name="new_user">New User</string>
+    <string name="new_device">New Device</string>
+    <string name="switch_user">Switch User</string>
+    <string name="switch_device">Switch Device</string>
+    <string name="volume_tweaker">Volume Tweaker</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="password_prompt">Please Enter the Password Below:</string>
+    <string name="enter">Enter</string>
+    <string name="username_prompt">Enter Username Here</string>
+    <string name="deviceName_prompt">Enter Device Name Here</string>
+    <string name="deviceName_error">Error! No Device Name Entered.</string>
+    <string name="username_error">Error! No Username Entered.</string>
+    <string name="username_success">User created successfully</string>
+    <string name="deviceName_success">Device created successfully</string>
+    <string name="changeDeviceName_prompt">Enter a new name for the device currently being used:</string>
+    <string name="NoLoginError">Error! No User Logged In.</string>
+    <string name="userDeviceButtonLabel">Current User/Device</string>
+    <string name="VolumeTweakerStarted">Volume Tweaker Started</string>
+    <string name="STARTFOREGROUND_ACTION">com.badmexican333.volumizer17.foregroundservice.action.startforeground</string>
+    <string name="STOPFOREGROUND_ACTION">com.badmexican333.volumizer17.foregroundservice.action.stopforeground</string>
+    <string name="VolumizerRunning">Volume Tweaker Running</string>
+    <string name="filePathUserName">FILEPATH</string>
+    <string name="legal">Legal</string>
+    <string name="newValue">New Value Entered</string>
+    <string name="changesRequiredInstructions">This is where you can set the number of equivalent changes required to permanently alter the saved volume state of a song. The
+    default value for this is 2.</string>
+    <string name="legalJargon">Limitation of liability:\n\n
+This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability
+and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or
+consequential damages(including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory
+of liability, whether in contract, strict liability, or tort(including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of
+such damage.\n\nSee Full EULA at https://drive.google.com/open?id=0B8xG8DaAJ0YsRHdsYU5zdHFIWU0</string>
+    <string name="Instructions">Starting Out:\n\n
+
+Volumizer is an app which automatically adjusts your music volume for you, after you do so the first time through, saving the volume level whenever you switch to the next track.\n\n
+If you want to change the assigned volume level, you need only change the volume going through part of the song, skip to another track, then play part
+        of the first song again, repeating the change you made the first time through. \n\n
+
+Setup and Use:\n\n
+
+In order for the volume tweaker to work, you need to put all of your music files in one folder on your phone. the default directory for this is \'/storage/sdcard1/Music\',
+but you can change this to whatever you want in the settings menu.\n\n
+
+If you want your music tracks to be louder or quieter, overall, you need only turn the volume up or down for any of your songs, and volumizer will take that change into account
+        and apply it to all subsequent tracks played so long as the volume tweaker is on. Unless you make the same exact volume change the number of times in a row(the default is 2)
+        you specify in the settings, you won\'t have to worry about any volume changes you make affecting the song you\'re playing.\n\n
+
+
+If you change a songs\' volume, and then make the opposite change for the next one, the second songs\' volume change won\'t be saved, but the first will be, so you don\'t have to
+go out of the way to correct a mistake you made in setting the initial volume of a track.\n\n
+
+Finally, to back up all saved volume configurations, see the \'Backup/Restore\' section in the settings menu.</string>
+    <string name="aboutText">Imagined, designed, and created by Phillip Lo Vetere\n\nApp logo created using Android Asset Studio\n\n\nCopyright 2016 Phillip LoVetere</string>
+    <string name="BackupRestoreInstructions">The files containing all volume configurations is located in /data/data/badmexican333.volumizer17/databases.
+                                            In order to backup your volume levels, simply backup these files using a file explorer or replace them with
+                                            a previous backup in order to restore them.</string>
+
+    <string name="fileLocationInstructions">You can set the directory here where you should keep all of your music files for Volumizer to see them.\n\n\nThe default filepath is "/storage/sdcard1/Music",
+    which is on your phone\'s external sd card.</string>
+    <string-array name="mainMenuOptions">
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+    <string-array name="settingsOptions">
+        <item>Backup/Restore</item>
+        <!--<item>Set/Change/Delete Password</item>-->
+        <item>Music Location</item>
+        <item>Changes Required</item>
+        <!-- <item>Change Username</item>
+         <item>Change Device Name</item>
+         <item>Advanced Settings</item>-->
+    </string-array>
+</resources>
